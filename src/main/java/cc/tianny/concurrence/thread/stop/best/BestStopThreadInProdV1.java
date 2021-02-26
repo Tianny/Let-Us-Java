@@ -6,7 +6,7 @@ package cc.tianny.concurrence.thread.stop.best;
  * Date: 2021/2/25
  * Time: 5:07 下午
  * Description: 假如要被停止的线程正在执行某个子方法，这个时候该如何处理中断？
-                * 方法一：在子方法中把中断异常向上抛给父方法，然后在父方法中处理中断
+ *              方法一：在子方法中把中断异常向上抛给父方法，然后在父方法中处理中断
  */
 public class BestStopThreadInProdV1 implements Runnable {
     @Override
