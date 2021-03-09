@@ -1,4 +1,4 @@
-package cc.tianny.concurrence.thread.method.extend;
+package cc.tianny.concurrence.thread.method.waitNotify.extend;
 
 import java.util.Date;
 import java.util.LinkedList;

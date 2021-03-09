@@ -1,4 +1,4 @@
-package cc.tianny.concurrence.thread.method.extend;
+package cc.tianny.concurrence.thread.method.waitNotify.extend;
 
 /**
  * Created with IntelliJ IDEA.
