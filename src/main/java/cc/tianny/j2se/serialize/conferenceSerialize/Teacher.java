@@ -1,6 +1,6 @@
-package cc.tianny.concurrence.j2se.serialize.conferenceSerialize;
+package cc.tianny.j2se.serialize.conferenceSerialize;
 
-import cc.tianny.concurrence.j2se.serialize.useObjectStream.Person;
+import cc.tianny.j2se.serialize.useObjectStream.Person;
 
 /**
  * Created with IntelliJ IDEA.

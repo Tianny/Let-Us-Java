@@ -1,4 +1,4 @@
-package cc.tianny.concurrence.j2se.serialize.useObjectStream;
+package cc.tianny.j2se.serialize.useObjectStream;
 
 import java.io.FileInputStream;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package cc.tianny.concurrence.j2se.nio;
+package cc.tianny.j2se.nio;
 
 import java.nio.CharBuffer;
 

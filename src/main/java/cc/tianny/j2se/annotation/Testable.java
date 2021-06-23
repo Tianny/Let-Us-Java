@@ -1,4 +1,4 @@
-package cc.tianny.concurrence.j2se.annotation;
+package cc.tianny.j2se.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

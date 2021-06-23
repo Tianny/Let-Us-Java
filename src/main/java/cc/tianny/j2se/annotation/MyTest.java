@@ -1,4 +1,4 @@
-package cc.tianny.concurrence.j2se.annotation;
+package cc.tianny.j2se.annotation;
 
 /**
  * Created with IntelliJ IDEA.

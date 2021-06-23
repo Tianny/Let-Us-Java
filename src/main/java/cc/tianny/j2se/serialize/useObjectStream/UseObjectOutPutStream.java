@@ -1,9 +1,8 @@
-package cc.tianny.concurrence.j2se.serialize.useObjectStream;
+package cc.tianny.j2se.serialize.useObjectStream;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
-import java.io.OutputStream;
 
 /**
  * Created with IntelliJ IDEA.

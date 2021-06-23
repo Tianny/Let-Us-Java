@@ -1,4 +1,4 @@
-package cc.tianny.concurrence.j2se.proxy;
+package cc.tianny.j2se.proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

@@ -1,4 +1,4 @@
-package cc.tianny.concurrence.j2se.serialize.custom;
+package cc.tianny.j2se.serialize.custom;
 
 import java.io.IOException;
 import java.io.Serializable;
