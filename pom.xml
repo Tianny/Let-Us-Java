@@ -6,8 +6,8 @@
 
   <groupId>cc.tianny</groupId>
   <artifactId>Let-Us-Java</artifactId>
-  <packaging>pom</packaging>
   <version>1.0</version>
+  <packaging>pom</packaging>
   <modules>
     <module>learn-j2se</module>
     <module>learn-juc</module>
@@ -20,13 +20,13 @@
   </properties>
 
   <dependencyManagement>
-      <dependencies>
-        <dependency>
-          <groupId>javax.servlet</groupId>
-          <artifactId>servlet-api</artifactId>
-          <version>2.3</version>
-        </dependency>
-      </dependencies>
+    <dependencies>
+      <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>servlet-api</artifactId>
+        <version>2.3</version>
+      </dependency>
+    </dependencies>
   </dependencyManagement>
 
 </project>
