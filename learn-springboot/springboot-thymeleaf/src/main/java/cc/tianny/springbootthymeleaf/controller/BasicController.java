@@ -13,10 +13,10 @@ import java.util.List;
  * User: Tianny
  * Date: 2021/7/7
  * Time: 9:05 下午
- * Description: No Description
+ * Description: thymeleaf 基本用法
  */
 @Controller
-public class ExampleController {
+public class BasicController {
     // 赋值、字符串拼接
     @RequestMapping("/string")
     public String index(ModelMap map) {
@@ -31,12 +31,14 @@ public class ExampleController {
         return "if";
     }
 
+    // for 循环列表
     @RequestMapping("/list")
     public String list(ModelMap map) {
         map.addAttribute("users", getUserList());
         return "list";
     }
 
+    // 外链
     @RequestMapping("/url")
     public String url(ModelMap map) {
         map.addAttribute("type", "link");
@@ -44,6 +46,7 @@ public class ExampleController {
         return "url";
     }
 
+    // 判断
     @RequestMapping("/eq")
     public String eq(ModelMap map) {
         map.addAttribute("name", "neo");
@@ -52,6 +55,7 @@ public class ExampleController {
         return "eq";
     }
 
+    // switch
     @RequestMapping("/switch")
     public String switchCase(ModelMap map) {
         map.addAttribute("sex", "woman");
