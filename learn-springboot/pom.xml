@@ -19,6 +19,7 @@
     <module>springboot-hello</module>
     <module>springboot-thymeleaf</module>
     <module>springboot-restful</module>
+    <module>springboot-swagger</module>
   </modules>
 
   <dependencyManagement>
@@ -46,6 +47,16 @@
         <artifactId>junit</artifactId>
         <version>4.13.1</version>
         <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>io.springfox</groupId>
+        <artifactId>springfox-swagger2</artifactId>
+        <version>2.9.2</version>
+      </dependency>
+      <dependency>
+        <groupId>io.springfox</groupId>
+        <artifactId>springfox-swagger-ui</artifactId>
+        <version>2.9.2</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
