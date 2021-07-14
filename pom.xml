@@ -12,7 +12,6 @@
     <module>learn-j2se</module>
     <module>learn-juc</module>
     <module>learn-springboot</module>
-    <module>springboot-swagger</module>
   </modules>
 
   <properties>
