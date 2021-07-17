@@ -22,6 +22,7 @@
     <module>springboot-swagger</module>
     <module>springboot-websocket</module>
     <module>springboot-jdbc</module>
+    <module>springboot-multi-jdbc</module>
   </modules>
 
   <dependencyManagement>
