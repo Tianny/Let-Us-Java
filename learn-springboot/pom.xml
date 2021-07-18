@@ -24,6 +24,7 @@
     <module>springboot-jdbc</module>
     <module>springboot-multi-jdbc</module>
     <module>springboot-mybatis</module>
+    <module>springboot-multi-mybatis</module>
   </modules>
 
   <dependencyManagement>
