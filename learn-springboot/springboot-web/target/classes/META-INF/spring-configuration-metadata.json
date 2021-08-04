@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "cc",
+      "type": "cc.tianny.web.config.CcProperties",
+      "sourceType": "cc.tianny.web.config.CcProperties"
+    },
+    {
+      "name": "other",
+      "type": "cc.tianny.web.config.OtherProperties",
+      "sourceType": "cc.tianny.web.config.OtherProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "cc.description",
+      "type": "java.lang.String",
+      "sourceType": "cc.tianny.web.config.CcProperties"
+    },
+    {
+      "name": "cc.title",
+      "type": "java.lang.String",
+      "sourceType": "cc.tianny.web.config.CcProperties"
+    },
+    {
+      "name": "other.blog",
+      "type": "java.lang.String",
+      "sourceType": "cc.tianny.web.config.OtherProperties"
+    },
+    {
+      "name": "other.title",
+      "type": "java.lang.String",
+      "sourceType": "cc.tianny.web.config.OtherProperties"
+    }
+  ],
+  "hints": []
+}
