@@ -19,7 +19,7 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public final class WebSocketUtils {
 
-    // springboot 会为每个 websocket 连接初始化一 个bean，所以可以用一个静态 set 保存起来
+    // springboot 会为每个 websocket 连接初始化一个 bean，所以可以用一个静态 set 保存起来
     private static final Logger logger = LoggerFactory.getLogger(WebSocketUtils.class);
 
     // 存储 websocket session
